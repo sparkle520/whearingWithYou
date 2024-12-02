@@ -1,0 +1,28 @@
+{
+  "name": "weathering_with_you",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:no-vue-tsc": "vite build"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "perspective.js": "^1.0.0",
+    "pinia": "^2.2.8",
+    "scrollreveal": "^4.0.9",
+    "simple-parallax-js": "^6.0.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "unocss": "^0.65.0-beta.2",
+    "vite": "^6.0.1",
+    "vue-tsc": "^2.1.10"
+  }
+}
