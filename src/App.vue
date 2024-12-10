@@ -10,5 +10,15 @@
 </template>
 
 <style scoped>
-
+#main {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  max-width: 100vw;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+#main::-webkit-scrollbar {
+  display: none;
+}
 </style>

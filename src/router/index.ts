@@ -7,6 +7,10 @@ const routes: Array<RouteRecordRaw> = [
     alias: '/home',
     component: () => import("/src/views/Home/index.vue"),
   },
+  {
+    path: "/miku2024",
+    component: () => import("/src/views/Miku2024/index.vue"),
+  },
 ];
 // 1.返回一个 router 实列，为函数，里面有配置项（对象） history
 const router = createRouter({
